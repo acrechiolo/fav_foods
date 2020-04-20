@@ -30,7 +30,22 @@ h1 {
     text-shadow: 2px 3px black;
     width: 75%;
     margin: 0px 0px 10px 68px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(169, 43, 29), 0 0 10px rgb(235, 103, 101),
+      0 0 10px #870000cb, 0 0 10px #870000cb, 0 0 10px #870000cb,
+      0 0 10px #870000cb, 0 0 10px #870000cb;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 10px #590606, 0 0 10px #590606,
+      0 0 10px #590606, 0 0 10px #590606, 0 0 10px #590606, 0 0 10px #590606;
+  }
 }
 h2 {
     color: white; 
@@ -72,8 +87,8 @@ padding: 20px;
     background-size: cover;
     background-position: center;
 }
-.spaghetti {
-    background-image: url("/img/spaghetti.jpg");
+.soup {
+    background-image: url("/img/soup1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
