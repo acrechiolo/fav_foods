@@ -1,0 +1,42 @@
+body {
+    background-color: rosybrown;
+    text-align: center;
+    height: 100%;
+}
+section {
+    height: 100%;
+    width: 600px;
+    position: relative;    
+   position: relative;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);     
+}
+div {
+    position: absolute;
+    left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);  
+}
+h1 {
+    border: 2px solid black;
+    background-color: white;
+}
+h2 {
+    border: 2px solid black;
+    background-color: white;
+}
+ol {
+    color: white;
+text-align: center;
+}
+
+li {
+float: center;
+list-style-position: inside;
+border: 2px solid black;
+color: black;
+background-color: white;
+margin: 3px;
+    
+}
