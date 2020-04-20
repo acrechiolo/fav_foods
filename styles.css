@@ -5,38 +5,77 @@ body {
 }
 section {
     height: 100%;
-    width: 600px;
-    position: relative;    
-   position: relative;
-   left: 50%;
-   top: 50%;
-   transform: translate(-50%, -50%);     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
 div {
-    position: absolute;
-    left: 50%;
-   top: 50%;
-   transform: translate(-50%, -50%);  
+
+    width: 600px;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 h1 {
-    border: 2px solid black;
-    background-color: white;
+    /* border: 2px solid black;
+    background-color: white; */
+    color: white; 
+    text-shadow: 2px 3px black;
+    width: 75%;
+    margin: 0px 0px 10px 68px;
+
 }
 h2 {
-    border: 2px solid black;
-    background-color: white;
+    color: white; 
+    text-shadow: 2px 3px black;
+    width: 75%;
+    margin: 0px 0px 10px 68px;
 }
 ol {
     color: white;
-text-align: center;
+    width: 75%;
+    text-shadow: 2px 2px black;
 }
 
 li {
-float: center;
 list-style-position: inside;
 border: 2px solid black;
-color: black;
-background-color: white;
-margin: 3px;
+color: white;
+/* background-color: white; */
+margin: 5px;
+width: 100%;
+padding: 20px;
     
+}
+.bread {
+    background-image: url("/img/bread.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mediterranean {
+    background-image: url("/img/meditteranean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pizza {
+    background-image: url("/img/pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.spaghetti {
+    background-image: url("/img/spaghetti.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.strips {
+    background-image: url("/img/strips.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
